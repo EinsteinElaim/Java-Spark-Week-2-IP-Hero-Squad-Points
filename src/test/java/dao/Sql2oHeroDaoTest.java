@@ -39,13 +39,13 @@ public class Sql2oHeroDaoTest {
         assertNotEquals(originalHeroId, hero.getId());
     }
 
-    @Test
-    public void existingHeroesCanBeFoundById()throws Exception{
-        Hero hero = setUpNewHero();
-        heroDao.add(hero);  //add to dao to save it
-        Hero foundHero = heroDao.findById(hero.getId());    //retrieve
-        assertEquals(hero, foundHero);
-    }
+//    @Test
+//    public void existingHeroesCanBeFoundById()throws Exception{
+//        Hero hero = setUpNewHero();
+//        heroDao.add(hero);  //add to dao to save it
+//        Hero foundHero = heroDao.findById(hero.getId());    //retrieve
+//        assertEquals(hero, foundHero);
+//    }
 
     @Test
     public void addedHeroesAreReturnedFromGetAll()throws Exception{

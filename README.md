@@ -4,11 +4,13 @@ This project is a hero-squad app that allows a user to manage heroes with effici
 
 ### Technologies Used
 This project was created using:
- 1.Java
- 2.Spark
- 3.Handlebars
- 4.Gradle
- 5.Postgresql
+<ol>
+    <li>Java</li>
+    <li>Spark</li>
+    <li>Handlebars</li>
+    <li>Gradle</li>
+    <li>PostgreSQL</li>
+</ol>
 
 ### Setup/Installation
 1.Install Postgres SQL to be able to create a local database on your machine.
@@ -42,6 +44,28 @@ program on the terminal. Alternatively, run the program in your IDE.
 , this can be http://localhost:4567/user
 
 You can then change the routes to access different pages.
+
+
+<u>***IMPORTANT:***</u>
+<ul>
+    <li>Remember, after you have the project ready to run and you have set up the databases correctly, you have to come back to the code and edit out my original database connection properties like my username and password to the one you use on your postgresql server! </li>
+    <li>Where to edit:</li> 
+</ul>
+<ol>
+    <li>App.java [Line 27 & 28]</li>
+    <li>Sql2oSquadDaoTest.java [Lines 22 & 23]</li>
+    <li>Sql2oHeroDaoTest,java [Lines 14 & 15]</li>
+</ol>
+
+
+###Running the project with an IDE
+<ol>
+    <li>Open the project using the IDE you have installed</li>
+    <li>Build and Run the project from the main App.java having installed java JDK and gradle.</li>
+</ol>
+
+###Known Bugs
+The project has no bugs as is.
 
 ### Support  and Contacts
 Einstein Eliam Murithi. <br/> If you run into any issues or would like to make a contribution to the
